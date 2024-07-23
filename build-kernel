@@ -261,7 +261,7 @@ build_pkgs_fn()
 # install required apt packages
 build_pkgs_fn
 
-VERSION=5.15.146.1
+VERSION=5.15.153.1
 
 if build 'wsl2-linux-kernel' "linux-msft-wsl-${VERSION}"; then
     download "https://api.github.com/repos/microsoft/WSL2-Linux-Kernel/tarball/linux-msft-wsl-${VERSION}" "linux-msft-wsl-${VERSION}.tar.gz"
